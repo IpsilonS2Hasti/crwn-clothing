@@ -18,4 +18,4 @@ const MenuItem = ({ title, imageUrl, size, history, match, linkUrl }) => (
   </div>
 )
 
-export default withRouter(MenuItem); // withRouter() allows us to pass the history, location and match properties of the original route component
+export default withRouter(MenuItem); // withRouter() is a higher order component that allows us to access the history, location and match properties of the original route component
